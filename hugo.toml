@@ -1,0 +1,62 @@
+baseURL = 'https://fredricdorothy.net/'
+locale = 'en-us'
+title = 'Fredric Dorothy'
+theme = 'hugo-coder'
+languagecode = "en"
+defaultcontentlanguage = "en"
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[pagination]
+pagerSize = 20
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+  author = "Fredric Dorothy"
+  info = "coder // writer // artist // musician"
+  description = "John Doe's personal website"
+  keywords = "blog,developer,personal"
+  avatarurl = "avatar.png"
+  #gravatar = "john.doe@example.com"
+
+  faviconSVG = "/favicon.svg"
+
+  since = 2026
+
+  enableTwemoji = true
+
+  colorScheme = "auto"
+  hidecolorschemetoggle = false
+
+  # customCSS = ["css/custom.css"]
+  # customSCSS = ["scss/custom.scss"]
+  # customJS = ["js/custom.js"]
+
+[taxonomies]
+  category = "categories"
+  series = "series"
+  tag = "tags"
+  author = "authors"
+
+# Menu links
+[[menu.main]]
+  name = "Blog"
+  weight = 1
+  url  = "posts/"
+[[menu.main]]
+  name = "About"
+  weight = 2
+  url = "about/"
+[[menu.main]]
+  name = "Games"
+  weight = 3
+  url = "games/"
+[[menu.main]]
+  name = "Music"
+  weight = 3
+  url = "music/"
