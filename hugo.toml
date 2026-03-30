@@ -19,8 +19,9 @@ style = "github-dark"
 [params]
   author = "Fredric Dorothy"
   info = "coder // writer // artist // musician"
-  description = "John Doe's personal website"
+  description = "Fredric's scribblings on the dark cave wall"
   keywords = "blog,developer,personal"
+  images = ["avatar.png"]
   avatarurl = "avatar.png"
   #gravatar = "john.doe@example.com"
 
