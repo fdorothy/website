@@ -6,7 +6,6 @@ description = "About the room builder project, part 1"
 slug = "2026_03_30_room_builder"
 authors = ["Fredric Dorothy"]
 tags = ["room_builder"]
-categories = ["coding"]
 externalLink = ""
 series = []
 +++
